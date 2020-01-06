@@ -1,14 +1,14 @@
 {
-  "name": "gatsby-starter-multiverse",
+  "name": "uss-2010",
   "version": "0.0.1",
-  "description": "Gatsby.js V2 starter template based on Multiverse by HTML5 UP",
+  "description": "USS 2010 Gallery",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anubhavsrivastava/gatsby-starter-multiverse.git"
+    "url": "git+https://github.com/haywhyze/uss10.git"
   },
   "author": {
-    "name": "Anubhav Srivastava",
-    "email": "anubhav.srivastava00@gmail.com"
+    "name": "Yusuf Abdulkarim",
+    "email": "haywhyze@gmail.com"
   },
   "dependencies": {
     "ftp-deploy": "^2.3.3",
@@ -55,7 +55,7 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/anubhavsrivastava/gatsby-starter-multiverse/issues"
+    "url": "https://github.com/haywhyze/uss10/issues"
   },
-  "homepage": "https://github.com/anubhavsrivastava/gatsby-starter-multiverse#readme"
+  "homepage": "https://github.com/haywhyze/uss10#readme"
 }
