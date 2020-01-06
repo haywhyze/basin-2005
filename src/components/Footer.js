@@ -8,61 +8,27 @@ export default function Footer({ onClose, isVisible }) {
       <div className="inner split">
         <div>
           <section>
-            <h2>Gatsby Starter</h2>
-            <p>
-              Open-Source starter coded on top of Multiverse design
-            </p>
-          </section>
-          <section>
-            <h2>Social Links</h2>
-            <ul className="icons">
-              {config.socialLinks.map(social => {
-                const { icon, name, url } = social;
-                return (
-                  <li key={url}>
-                    <a href={url} className={`icon ${icon}`}>
-                      <span className="label">{name}</span>
-                    </a>
-                  </li>
-                );
-              })}
-            </ul>
+            <h2>USS 2010 Online Gallery</h2>
+            <p>Just a platform to keep in touch with old classmates</p>
           </section>
         </div>
         <div>
           <section>
-            <h2>Get in touch</h2>
-            <form method="post" action="#">
-              <div className="fields">
-                <div className="field half">
-                  <input type="text" name="name" id="name" placeholder="Name" />
-                </div>
-                <div className="field half">
-                  <input
-                    type="text"
-                    name="email"
-                    id="email"
-                    placeholder="Email"
-                  />
-                </div>
-                <div className="field">
-                  <textarea
-                    name="message"
-                    id="message"
-                    rows="4"
-                    placeholder="Message"
-                  />
-                </div>
-              </div>
-              <ul className="actions">
-                <li>
-                  <input type="submit" value="Send" className="primary" />
-                </li>
-                <li>
-                  <input type="reset" value="Reset" />
-                </li>
+            <h2>Get in touch with the creator</h2>
+            <section>
+              <ul className="icons">
+                {config.socialLinks.map(social => {
+                  const { icon, name, url } = social;
+                  return (
+                    <li key={url}>
+                      <a href={url} className={`icon ${icon}`}>
+                        <span className="label">{name}</span>
+                      </a>
+                    </li>
+                  );
+                })}
               </ul>
-            </form>
+            </section>
           </section>
         </div>
       </div>

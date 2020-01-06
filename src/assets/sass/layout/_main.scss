@@ -57,21 +57,28 @@
       left: 0;
       position: absolute;
       top: 0;
+      transition: transform 1s;
       width: 100%;
+
+      &:hover {
+        transform: scale(1.1);
+      }
     }
 
     > h2 {
       @include vendor('pointer-events', 'none');
       bottom: (1.5em / 0.8);
-      font-size: 0.8em;
+      font-size: 1em;
       left: (1.75em / 0.8);
       margin: 0;
       position: absolute;
       z-index: 1;
+      padding: 0.1em 1em;
+      background-color: black;
     }
 
     > p {
-      display: none;
+      // display: none;
     }
   }
 
