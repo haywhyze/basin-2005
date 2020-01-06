@@ -1,31 +1,26 @@
 module.exports = {
-  siteTitle: 'Gatsby Multiverse - Open-Source starter | AppSeed', // <title>
-  manifestName: 'Multiverse',
-  manifestShortName: 'Landing', // max 12 characters
+  siteTitle: 'USS 2010 - Student Gallery', // <title>
+  manifestName: 'USS 2010',
+  manifestShortName: 'USS \'10', // max 12 characters
   manifestStartUrl: '/',
-  manifestBackgroundColor: '#663399',
-  manifestThemeColor: '#663399',
+  manifestBackgroundColor: '#AD67FC',
+  manifestThemeColor: '#AD67FC',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
   pathPrefix: `/gatsby-starter-multiverse/`, // This path is subpath of your hosting https://domain/portfolio
-  heading: 'AppSeed',
-  subHeading: 'Design Html5Up',
+  heading: 'USS 2010',
+  subHeading: 'Student\'s Gallery',
   // social
   socialLinks: [
     {
-      icon: 'fa-github',
-      name: 'Github',
-      url: 'https://github.com/app-generator/gatsby-html5up-multiverse',
-    },
-    {
       icon: 'fa-twitter',
       name: 'Twitter',
-      url: 'https://twitter.com/webappseed',
+      url: 'https://twitter.com/haywhyze',
     },
     {
       icon: 'fa-facebook',
       name: 'Facebook',
-      url: 'https://facebook.com/webappseed',
+      url: 'https://facebook.com/haywhyze',
     },
   ],
 };
