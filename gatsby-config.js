@@ -4,13 +4,13 @@ module.exports = {
   pathPrefix: config.pathPrefix,
   siteMetadata: {
     title: config.siteTitle,
-    siteUrl: `https://haywhyze.github.io/uss10/`,
+    siteUrl: 'https://haywhyze.github.io/uss10/',
   },
   plugins: [
     'gatsby-plugin-sitemap',
     'gatsby-plugin-react-helmet',
     {
-      resolve: `gatsby-plugin-manifest`,
+      resolve: 'gatsby-plugin-manifest',
       options: {
         name: config.manifestName,
         short_name: config.manifestShortName,
@@ -23,5 +23,12 @@ module.exports = {
     },
     'gatsby-plugin-sass',
     'gatsby-plugin-offline',
+    {
+      resolve: 'gatsby-plugin-google-analytics',
+      options: {
+        // replace "UA-XXXXXXXXX-X" with your own Tracking ID
+        trackingId: 'UA-155670890-1',
+      },
+    },
   ],
 };
