@@ -71,12 +71,12 @@ $font: (
 
 // Palette.
 $palette: (
-  bg: #242629,
+  bg: #360568,
   bg-alt: #1f2224,
-  bg-overlay: transparentize(#242629, 0.75),
-  bg-overlay-alt: transparentize(#242629, 0.5),
-  bg-ie-overlay: transparentize(#242629, 0.45),
-  bg-ie-overlay-alt: transparentize(#242629, 0.2),
+  bg-overlay: transparentize(#360568, 0.75),
+  bg-overlay-alt: transparentize(#360568, 0.5),
+  bg-ie-overlay: transparentize(#360568, 0.45),
+  bg-ie-overlay-alt: transparentize(#360568, 0.2),
   fg: #a0a0a1,
   fg-bold: #ffffff,
   fg-medium: #707071,
@@ -84,5 +84,5 @@ $palette: (
   border: #36383c,
   border-bg: #34363b,
   border-bg-alt: #44464b,
-  accent1: #34a58e,
+  accent1: #AD67FC,
 );

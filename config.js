@@ -3,8 +3,8 @@ module.exports = {
   manifestName: 'USS 2010',
   manifestShortName: "USS '10", // max 12 characters
   manifestStartUrl: '/',
-  manifestBackgroundColor: '#AD67FC',
-  manifestThemeColor: '#AD67FC',
+  manifestBackgroundColor: '#360568',
+  manifestThemeColor: '#360568',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
   pathPrefix: '/uss10/', // This path is subpath of your hosting https://domain/portfolio
