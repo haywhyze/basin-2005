@@ -1,13 +1,17 @@
 import React from 'react';
-import config from '../../config';
 import { Link } from 'gatsby';
+import config from '../../config';
 
 export default function Header({ onAction = () => {} }) {
   return (
     <header id="header">
       <h1>
         <Link to="/">
-          <strong>{config.heading}</strong> - {config.subHeading}
+          <strong>{config.heading}</strong>
+          {' '}
+-
+          {' '}
+          {config.subHeading}
         </Link>
       </h1>
       <nav>
@@ -15,7 +19,7 @@ export default function Header({ onAction = () => {} }) {
           <li>
             <a
               href="#footer"
-              onClick={e => onAction(e, 'about')}
+              onClick={(e) => onAction(e, 'about')}
               className="icon fa-info-circle"
             >
               About

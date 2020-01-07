@@ -17,7 +17,7 @@ export default function Footer({ onClose, isVisible }) {
             <h2>Get in touch with the creator</h2>
             <section>
               <ul className="icons">
-                {config.socialLinks.map(social => {
+                {config.socialLinks.map((social) => {
                   const { icon, name, url } = social;
                   return (
                     <li key={url}>
@@ -34,7 +34,7 @@ export default function Footer({ onClose, isVisible }) {
       </div>
       <div
         className="closer"
-        onClick={e => {
+        onClick={(e) => {
           e.preventDefault();
           onClose();
         }}
