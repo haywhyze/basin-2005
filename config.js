@@ -18,9 +18,9 @@ module.exports = {
       url: 'https://twitter.com/haywhyze',
     },
     {
-      icon: 'fa-facebook',
-      name: 'Facebook',
-      url: 'https://facebook.com/haywhyze',
+      icon: 'fa-globe',
+      name: 'Website',
+      url: 'https://yusufabdulkarim.tech',
     },
   ],
 };

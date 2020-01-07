@@ -6,25 +6,32 @@
 
 /* Icons */
 
-	ul.icons {
-		cursor: default;
-		list-style: none;
-		padding-left: 0;
+ul.icons {
+  cursor: default;
+  list-style: none;
+  padding-left: 0;
 
-		li {
-			display: inline-block;
-			padding: 0 1em 0 0;
+  li {
+    display: inline-block;
+    padding: 0 1em 0 0;
 
-			&:last-child {
-				padding-right: 0;
-			}
+    &:last-child {
+      padding-right: 0;
+    }
 
-			.icon {
-				color: _palette(fg-light);
+    .icon {
+      color: _palette(fg);
 
-				&:before {
-					font-size: 1.5em;
-				}
-			}
-		}
-	}
+      &:before {
+        font-size: 1.5em;
+      }
+    }
+    .fa-twitter {
+      color: #1da1f2;
+
+      &:hover {
+        color: _palette(fg);
+      }
+    }
+  }
+}

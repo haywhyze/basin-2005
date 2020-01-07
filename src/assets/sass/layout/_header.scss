@@ -80,14 +80,14 @@ body {
 
           &.icon {
             &:before {
-              color: _palette(fg-light);
+              color: _palette(fg-bold);
               float: right;
               margin-left: 0.75em;
             }
           }
 
           &:hover {
-            color: _palette(fg-bold) !important;
+            color: _palette(accent1) !important;
           }
 
           &.active {

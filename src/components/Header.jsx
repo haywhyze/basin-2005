@@ -8,10 +8,10 @@ export default function Header({ onAction = () => {} }) {
       <h1>
         <Link to="/">
           <strong>{config.heading}</strong>
-          {' '}
+{' '}
 -
-          {' '}
-          {config.subHeading}
+{' '}
+{config.subHeading}
         </Link>
       </h1>
       <nav>
@@ -21,9 +21,7 @@ export default function Header({ onAction = () => {} }) {
               href="#footer"
               onClick={(e) => onAction(e, 'about')}
               className="icon fa-info-circle"
-            >
-              About
-            </a>
+             />
           </li>
         </ul>
       </nav>
