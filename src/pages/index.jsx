@@ -50,7 +50,7 @@ const imgSet = [
   {
     src: img05,
     title: 'Biola Fatoyinbo',
-    desc: '',
+    desc: 'B Class',
   },
   {
     src: img06,
