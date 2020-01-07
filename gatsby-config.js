@@ -4,7 +4,7 @@ module.exports = {
   pathPrefix: config.pathPrefix,
   siteMetadata: {
     title: config.siteTitle,
-    siteUrl: `https://gatsby-html5up-multiverse.appseed.us`,
+    siteUrl: `https://haywhyze.github.io/uss10/`,
   },
   plugins: [
     'gatsby-plugin-sitemap',
